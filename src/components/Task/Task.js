@@ -2,7 +2,7 @@ import "./Task.css";
 
 const Task = () => {
     return (
-        <div className="comleted editing basic">
+        <div className="view">
             <input className="toggle" type="checkbox" />
             <label>
                 <span className="description">Active task</span>

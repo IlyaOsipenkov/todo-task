@@ -5,13 +5,12 @@ import "./App.css";
 
 const App = () => {
     return (
-        <div className="wrapper">
-            <div className="header">
-                <h1>Todos</h1>
-            </div>
+        <div className="todoapp">
             <NewTaskForm />
-            <TaskList />
-            <Footer />
+            <div className="main">
+                <TaskList />
+                <Footer />
+            </div>
         </div>
     );
 };
